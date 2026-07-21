@@ -40,7 +40,8 @@
                 "usernamehw.errorlens",
                 "microhobby.taskrunnercodeplus",
                 "DavidAnson.vscode-markdownlint",
-                "MS-vsliveshare.vsliveshare"
+                "MS-vsliveshare.vsliveshare",
+                "serayuzgur.crates"
             ]
         }
     },
