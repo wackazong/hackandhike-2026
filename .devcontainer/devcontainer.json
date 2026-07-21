@@ -14,6 +14,8 @@
                 // automatically save after 1 second
                 "editor.formatOnSave": true,
                 "files.autoSave": "afterDelay",
+                // scale the minimap to the window height
+                "editor.minimap.size": "fill",
                 // do not show the right sidebar because we need the screen space for a two column editor layout
                 "workbench.secondarySideBar.defaultVisibility": "hidden",
                 "chat.disableAIFeatures": true,
@@ -26,6 +28,11 @@
                 "timeline.excludeSources": [
                     "git-history"
                 ],
+                // Keep Cargo.toml dependencies on one line
+                "evenBetterToml.formatter.inlineTableExpand": false,
+                "evenBetterToml.formatter.arrayAutoExpand": false,
+                "evenBetterToml.formatter.arrayAutoCollapse": true,
+                "evenBetterToml.formatter.columnWidth": 10000,
                 // open readme on startup and use markdown preview for it
                 "workbench.startupEditor": "readme",
                 "workbench.editorAssociations": {
